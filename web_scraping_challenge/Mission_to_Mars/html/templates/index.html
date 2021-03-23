@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Mars Scraper!</title>
+
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link href="../static/css/cover.css" rel="stylesheet">
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+  </head>
+  <body class="text-left text-white bg-dark">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="/"> Mars Scraper</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/scrape">Scrape!</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/images" role="button">Images</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<main class="py-3 px-3 bg-secondary">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+  <!-- <main class="px-3"> -->
+
+    <h3 class="display-4 fst-italic"><b>Latest Mars News</b></h3><br>
+    <hr class="dropdown-divider">
+    <h4 class="display-10 fst-italic">
+      {{ vacation.headlines[0] }}
+    </h3>
+    <p class="card-text mb-auto fw-light">
+      {{ vacation.paragraphs[0] }}
+    </p>
+    <hr class="dropdown-divider">
+    <h4 class="display-10 fst-italic">
+      {{ vacation.headlines[1] }}
+    </h3>
+    <p class="card-text mb-auto fw-light">
+      {{ vacation.paragraphs[1] }}
+    </p>
+    <hr class="dropdown-divider">
+    <h4 class="display-10 fst-italic">
+      {{ vacation.headlines[2] }}
+    </h3>
+    <p class="card-text mb-auto fw-light">
+      {{ vacation.paragraphs[2] }}
+    </p>
+    <hr class="dropdown-divider">
+    <h4 class="display-10 fst-italic">
+      {{ vacation.headlines[3] }}
+    </h3>
+    <p class="card-text mb-auto fw-light">
+      {{ vacation.paragraphs[3] }}
+    </p>
+    <hr class="dropdown-divider">
+    <h4 class="display-10 fst-italic">
+      {{ vacation.headlines[4] }}
+    </h3>
+    <p class="card-text mb-auto fw-light">
+      {{ vacation.paragraphs[4] }}
+    </p>
+    <hr class="dropdown-divider">
+    <h4 class="display-10 fst-italic">
+      {{ vacation.headlines[5] }}
+    </h3>
+    <p class="card-text mb-auto fw-light">
+      {{ vacation.paragraphs[5] }}
+    </p>
+    </div>
+    <div class="col-sm-4 text-center">
+      <div class="card border-dark" style="width: 18rem;">
+        <img src="{{ vacation.featured_image }}" class="card-img-top" alt="...">
+        <div class="card-body bg-dark">
+          <h5 class="card-title">Mars Featured Image</h5>
+
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+
+
+
+
+</div>
+</main>
+
+
+
+  </body>
+</html>

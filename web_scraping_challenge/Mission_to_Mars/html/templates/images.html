@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Mars Scraper!</title>
+
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link href="../static/css/cover.css" rel="stylesheet">
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+  </head>
+  <body class="text-left text-white bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="/">Mars Scraper</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/scrape">Scrape!</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/images" role="button">Images</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<div class="py-3 px-3 bg-secondary">
+<div class="container text-center">
+  <div class="header">
+    <h3>Mars Featured Images</h3>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <img src="{{ vacation.hemi_images[0]['img_url'] }}" width="50%"><br><br>
+      <img src="{{ vacation.hemi_images[1]['img_url'] }}" width="50%">
+    </div>
+    <div class="col-sm">
+      <img src="{{ vacation.hemi_images[2]['img_url'] }}" width="50%"><br><br>
+      <img src="{{ vacation.hemi_images[3]['img_url'] }}" width="50%">
+  </div>
+</div>
+  </div>
+</div>
+
+
+
+</div>
+
+<br><br><br><br>
+
+  </body>
+</html>
