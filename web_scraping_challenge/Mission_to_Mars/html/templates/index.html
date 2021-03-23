@@ -53,7 +53,7 @@
   </div>
 </div>
 </nav>
-<main class="py-3 px-3 bg-secondary">
+<main class="py-3 px-3 bg-dark">
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-6">
@@ -66,56 +66,88 @@
     </h3>
     <p class="card-text mb-auto fw-light">
       {{ vacation.paragraphs[0] }}
-    </p>
+    </p><br>
     <hr class="dropdown-divider">
     <h4 class="display-10 fst-italic">
       {{ vacation.headlines[1] }}
     </h3>
     <p class="card-text mb-auto fw-light">
       {{ vacation.paragraphs[1] }}
-    </p>
+    </p><br>
     <hr class="dropdown-divider">
     <h4 class="display-10 fst-italic">
       {{ vacation.headlines[2] }}
     </h3>
     <p class="card-text mb-auto fw-light">
       {{ vacation.paragraphs[2] }}
-    </p>
+    </p><br>
     <hr class="dropdown-divider">
     <h4 class="display-10 fst-italic">
       {{ vacation.headlines[3] }}
     </h3>
     <p class="card-text mb-auto fw-light">
       {{ vacation.paragraphs[3] }}
-    </p>
+    </p><br>
     <hr class="dropdown-divider">
     <h4 class="display-10 fst-italic">
       {{ vacation.headlines[4] }}
     </h3>
     <p class="card-text mb-auto fw-light">
       {{ vacation.paragraphs[4] }}
-    </p>
+    </p><br>
     <hr class="dropdown-divider">
     <h4 class="display-10 fst-italic">
       {{ vacation.headlines[5] }}
     </h3>
     <p class="card-text mb-auto fw-light">
       {{ vacation.paragraphs[5] }}
-    </p>
+    </p><br>
     </div>
     <div class="col-sm-4 text-center">
-      <div class="card border-dark" style="width: 18rem;">
+      <table class="table table-dark table-bordered border-light">
+        <thead class="table-light">
+          <tr style="text-align: center;">
+            <th><h6>Mars Facts</h6></th>
+            <th><h6>Measurements</h6></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Diameter:</td>
+            <td>6,779 km</td>
+          </tr>
+          <tr>
+            <td>Mass:</td>
+            <td>6.39 × 10^23 kg</td>
+          </tr>
+          <tr>
+            <td>Moons:</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Distance from Sun:</td>
+            <td>227,943,824 km</td>
+          </tr>
+          <tr>
+            <td>Length of Year:</td>
+            <td>687 Earth days</td>
+          </tr>
+          <tr>
+            <td>Temperature:</td>
+            <td>-87 to -5 °C</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="card border-dark text" style="width: 18rem;">
         <img src="{{ vacation.featured_image }}" class="card-img-top" alt="...">
         <div class="card-body bg-dark">
           <h5 class="card-title">Mars Featured Image</h5>
 
+        </div>
+      </div>
     </div>
   </div>
 </div>
-
-
-    </div>
-  </div>
 
 
 

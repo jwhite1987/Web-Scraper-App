@@ -52,19 +52,23 @@
   </div>
 </div>
 </nav>
-<div class="py-3 px-3 bg-secondary">
+<div class="py-3 px-3 bg-dark">
 <div class="container text-center">
   <div class="header">
-    <h3>Mars Featured Images</h3>
+    <h1>Mars Hemisphere Images</h1>
   </div>
   <div class="row">
     <div class="col-sm">
-      <img src="{{ vacation.hemi_images[0]['img_url'] }}" width="50%"><br><br>
-      <img src="{{ vacation.hemi_images[1]['img_url'] }}" width="50%">
+      <a href="{{ vacation.hemi_images[0]['img_url'] }}">
+      <img src="{{ vacation.hemi_images[0]['img_url'] }}" width="50%"></a><br><br>
+      <a href="{{ vacation.hemi_images[1]['img_url'] }}">
+      <img src="{{ vacation.hemi_images[1]['img_url'] }}" width="50%"></a>
     </div>
     <div class="col-sm">
-      <img src="{{ vacation.hemi_images[2]['img_url'] }}" width="50%"><br><br>
-      <img src="{{ vacation.hemi_images[3]['img_url'] }}" width="50%">
+      <a href="{{ vacation.hemi_images[2]['img_url'] }}">
+      <img src="{{ vacation.hemi_images[2]['img_url'] }}" width="50%"></a><br><br>
+      <a href="{{ vacation.hemi_images[3]['img_url'] }}">
+      <img src="{{ vacation.hemi_images[3]['img_url'] }}" width="50%"></a>
   </div>
 </div>
   </div>
