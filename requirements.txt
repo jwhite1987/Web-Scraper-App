@@ -7,3 +7,4 @@ dnspython>=2.1.0
 splinter>=0.14.0
 bs4>=0.0.1
 webdriver-manager>=3.4.2
+lxml>=4.6.3
