@@ -14,7 +14,7 @@ mongo = PyMongo(app, uri="mongodb+srv://jimmywhite87:Ruger2012@charged-up.yt7ie.
 def home():
 
     # Find one record of data from the mongo database
-    mars_data = mongo.db.collection.find_one()
+    mars_data = mongo.db.missionstomars.find_one()
 
     # Return template and data
     return render_template("index.html", vacation=mars_data)
