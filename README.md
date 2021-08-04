@@ -12,7 +12,7 @@ Welcome to Mission To Mars 👋
 </p>
 
 > Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. Scrape several websites and collect relevant data. Assign the text and photos to variables that can be referenced later. Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs.
-
+### 🏠 [Jupyter Notebook](https://jimmywhite1987.github.io/Mission-To-Mars/)
 ### ✨ [Demo](https://mission-to-mars-1.herokuapp.com)
 ## Install
 ```sh
