@@ -1,55 +1,52 @@
 <h1 align="center">
 
-Welcome to new project 👋
+Welcome to Mission To Mars 👋
 
 </h1>
 <p>
 <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-<a href="https://github.com/pedroermarinho/markdown-readme-generator#readme" target="_blank"><img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" /></a>
-<a href="https://github.com/pedroermarinho/markdown-readme-generator/graphs/commit-activity" target="_blank"><img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" /></a>
-<a href="https://github.com/pedroermarinho/markdown-readme-generator/blob/master/LICENSE" target="_blank"><img alt="License:MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
+
+<a href="None/graphs/commit-activity" target="_blank"><img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" /></a>
+
 
 </p>
 
-> new project
-### 🏠 [Homepage](https://github.com/pedroermarinho/markdown-readme-generator#readme)
-### ✨ [Demo](https://github.com/pedroermarinho/markdown-readme-generator#readme)
+> Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. Scrape several websites and collect relevant data. Assign the text and photos to variables that can be referenced later. Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs.
+
+### ✨ [Demo](https://mission-to-mars-1.herokuapp.com)
 ## Install
 ```sh
-pip3 install markdown-readme-generator
+None
 
 ```
 
 ## Usage
 ```sh
-mrgenerator-cli
+Visit Project Demo Page
 
 ```
 
 ## Run tests
 ```sh
-python3 run.py
+None
 
 ```
 
 ## Author
-👤 **your name**
+👤 **Jimmy White**
+* Website: https://www.jwhiteanalytics.com
+
+* GitHub: [@jimmywhite1987](https://github.com/{github_username})
 
 
 
 
 
-
-
-## 🤝 Contributing
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pedroermarinho/markdown-readme-generator/issues). You can also take a look at the [contributing guide](https://github.com/pedroermarinho/markdown-readme-generator/blob/master/CONTRIBUTING.md)
 ## Show your support
 Give a ⭐️ if this project helped you!
 ## Credits
-**[Markdown Readme Generator](https://github.com/pedroermarinho/markdown-readme-generator)**
-## 📝 License
+**[Jimmy White](None)**
 
-This project is [MIT](https://github.com/pedroermarinho/markdown-readme-generator/blob/master/LICENSE) licensed.
 
 ---
 _This README was created with the [markdown-readme-generator](https://github.com/pedroermarinho/markdown-readme-generator)_
