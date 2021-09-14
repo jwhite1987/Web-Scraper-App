@@ -21,15 +21,15 @@
 - HTML
 
 ## Screenshots
+![image](/Images/screenshot4.png)
+
+![image](/Images/screenshot5.png)
+
 ![image](/Images/screenshot1.png)
 
 ![image](/Images/screenshot2.png)
 
 ![image](/Images/screenshot3.png)
-
-![image](/Images/screenshot4.png)
-
-![image](/Images/screenshot5.png)
 
 ## Links
 - [JWhiteAnalytics.com](https://jwhiteanalytics.com)
