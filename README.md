@@ -31,8 +31,6 @@
 
 ![image](/Images/screenshot5.png)
 
-![image](/Images/screenshot6.png)
-
 ## Links
 - [JWhiteAnalytics.com](https://jwhiteanalytics.com)
 - [LinkedIn](https://www.linkedin.com/in/jimmywhite1987)
