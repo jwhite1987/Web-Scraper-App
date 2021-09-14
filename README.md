@@ -1,52 +1,38 @@
-<h1 align="center">
+# `Web Scraper App`
 
-Welcome to Mission To Mars 👋
+## Project Description
 
-</h1>
-<p>
-<img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-
-<a href="None/graphs/commit-activity" target="_blank"><img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" /></a>
-
-
-</p>
-
-> Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. Scrape several websites and collect relevant data. Assign the text and photos to variables that can be referenced later. Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs.
-### 🏠 [Jupyter Notebook](https://jimmywhite1987.github.io/Mission-To-Mars/)
-### ✨ [Demo](https://mission-to-mars-1.herokuapp.com)
-## Install
-```sh
-None
-
-```
-
-## Usage
-```sh
-Visit Project Demo Page
-
-```
-
-## Run tests
-```sh
-None
-
-```
-
-## Author
-👤 **Jimmy White**
-* Website: https://www.jwhiteanalytics.com
-
-* GitHub: [@jimmywhite1987](https://github.com/{github_username})
+-  The goal of this project is to build a web application that scrapes various websites for data related to the fictional 'Mission to Mars' and displays the information in a single HTML page and then complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+- First, begin scraping the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text and assign the text to variables that can be referenced later.
+- Then, visit this [url](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html) and using splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable.
+- Using the same scraping libraries, visit the Mars Facts webpage [here](https://space-facts.com/mars/) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, and other relevant data. Then, visit the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
+- Finally, using MongoDB and Flask, build an HTML page that displays all of the information that was scraped/gathered from the URLs previously listed.
 
 
+## Languages & Technology Used
 
+- Python
+- Jupyter Notebook
+- BeautifulSoup
+- Pandas
+- Requests/Splinter
+- MongoDB
+- Flask
+- HTML
 
+## Screenshots
+![image](/Images/screenshot1.png)
 
-## Show your support
-Give a ⭐️ if this project helped you!
-## Credits
-**[Jimmy White](None)**
+![image](/Images/screenshot2.png)
 
+![image](/Images/screenshot3.png)
 
----
-_This README was created with the [markdown-readme-generator](https://github.com/pedroermarinho/markdown-readme-generator)_
+![image](/Images/screenshot4.png)
+
+![image](/Images/screenshot5.png)
+
+![image](/Images/screenshot6.png)
+
+## Links
+- [JWhiteAnalytics.com](https://jwhiteanalytics.com)
+- [LinkedIn](https://www.linkedin.com/in/jimmywhite1987)
